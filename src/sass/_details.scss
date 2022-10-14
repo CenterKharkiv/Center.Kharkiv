@@ -1,0 +1,67 @@
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.details__button {
+border-radius: 50%;
+width: 150px;
+height: 150px;
+border: none;
+cursor: pointer;
+}
+
+.button-uah {
+background: url("/src/images/hryvna.png");
+background-size: contain;
+}
+
+.button-usd {
+background: url("/src/images/dollar.png");
+background-size: contain;
+}
+
+.button-eur {
+    background: url("/src/images/euro.png");
+    background-size: contain;
+    }
+
+    .link-uah, .link-usd, .link-eur {
+        padding: 75px;
+    }
+
+    .details-text {
+
+    }
+
+.details-page {
+    text-align: center;
+    align-items: center;
+}
+
+.hryvna-container {
+    margin-top: 15%;
+}
+
+.details-text:hover {
+.details-text-one {
+    color: blue;
+}
+.details-text-two {
+    color: yellow;
+}
+}
+
+.dollar-container {
+    margin-top: 15%;
+}

@@ -1,0 +1,19 @@
+.achievement__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.achievement__list__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievement__image {
+    width: 300px;
+    height: 450px;
+    }
+    
