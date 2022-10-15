@@ -19,26 +19,18 @@ width: 150px;
 height: 150px;
 border: none;
 cursor: pointer;
+background: #46837C;
 }
 
-.button-uah {
-background-image: url("/src/images/hryvna.png");
-background-size: contain;
-}
-
-.button-usd {
-background-image: url("/src/images/dollar.png");
-background-size: contain;
-}
-
-.button-eur {
-    background-image: url("/src/images/euro.png");
-    background-size: contain;
-    }
 
     .link-uah, .link-usd, .link-eur {
         padding: 75px;
+
     }
+
+.details__link {
+
+}
 
     .details-text {
 

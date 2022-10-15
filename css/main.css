@@ -100,21 +100,7 @@ main {
   height: 150px;
   border: none;
   cursor: pointer;
-}
-
-.button-uah {
-  background: url("/src/images/hryvna.png");
-  background-size: contain;
-}
-
-.button-usd {
-  background: url("/src/images/dollar.png");
-  background-size: contain;
-}
-
-.button-eur {
-  background: url("/src/images/euro.png");
-  background-size: contain;
+  background: #46837C;
 }
 
 .link-uah, .link-usd, .link-eur {
