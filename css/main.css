@@ -46,11 +46,9 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: baseline;
+  text-align: center;
   gap: 30px;
-}
-
-.activity__image {
-  border-radius: 50%;
 }
 
 .activity__list__item {
@@ -58,13 +56,17 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  gap: 15px;
 }
 
 .achievement__list {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: baseline;
   gap: 30px;
+  text-align: center;
 }
 
 .achievement__list__item {
@@ -72,11 +74,17 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  gap: 15px;
 }
 
-.achievement__image {
+.achievement__video {
   width: 300px;
   height: 450px;
+}
+
+.achievement__text {
+  text-transform: uppercase;
 }
 
 .details-container {
