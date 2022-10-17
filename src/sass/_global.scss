@@ -1,6 +1,9 @@
 h1 {
 text-transform: uppercase;
 font-size: 48px;
+@media screen and (max-width: 768px) {
+text-align: center;
+            }
 }
 
 h2 {

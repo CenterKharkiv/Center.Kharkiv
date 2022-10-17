@@ -2,6 +2,11 @@ h1 {
   text-transform: uppercase;
   font-size: 48px;
 }
+@media screen and (max-width: 768px) {
+  h1 {
+    text-align: center;
+  }
+}
 
 h2 {
   text-transform: uppercase;
@@ -34,6 +39,12 @@ main {
   flex-direction: row;
   justify-content: space-around;
 }
+@media screen and (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 
 .activity-container {
   display: flex;
@@ -49,6 +60,12 @@ main {
   align-items: baseline;
   text-align: center;
   gap: 30px;
+}
+@media screen and (max-width: 768px) {
+  .activity__list {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .activity__list__item {
@@ -67,6 +84,12 @@ main {
   align-items: baseline;
   gap: 30px;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .achievement__list {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .achievement__list__item {
@@ -100,6 +123,12 @@ main {
   justify-content: center;
   align-items: center;
   gap: 30px;
+}
+@media screen and (max-width: 768px) {
+  .details__list {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .details__button {
@@ -140,11 +169,29 @@ main {
   flex-direction: row;
   justify-content: space-around;
 }
+@media screen and (max-width: 768px) {
+  .collection-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 
 .contacts-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  .contacts-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacts__map {
+    max-width: 80%;
+  }
 }
 
 .footer-container {
@@ -170,4 +217,9 @@ header {
   justify-content: center;
   align-items: center;
   gap: 15px;
+}
+@media screen and (max-width: 768px) {
+  .header__list {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=main.css.map */
