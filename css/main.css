@@ -225,4 +225,8 @@ header {
   .header__list {
     flex-wrap: wrap;
   }
+}
+
+#ukrainian {
+  border: solid 2px;
 }/*# sourceMappingURL=main.css.map */
